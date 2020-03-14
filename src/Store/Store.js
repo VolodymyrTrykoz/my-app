@@ -1,7 +1,7 @@
 import { observable, action, computed } from "mobx";
 
 class Store {
-    @observable todos = ['get milk', 'buy eggs']
+    @observable todos = ['get milk', 'buy 2 eggs']
 
     @action addTodo = (item) => {
         this.todos.push(item)
